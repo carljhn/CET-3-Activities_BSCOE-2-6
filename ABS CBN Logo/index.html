@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carl John R. Zoleta">
+        <meta name="description" content="Rendering ABS-CBN Logo using Canvas, JavaScript, CSS, and HTML">
+        <title>ABS-CBN Logo (Canvas)</title>
+        <link rel="icon" href="ABS-CBN-logo.png">
+    </head>
+
+    <body>
+        <div style="text-align: center">
+            <canvas id="canvasABS" height="555" width="500"></canvas>
+            <script>
+    
+                // assign variables for the canvas
+                let canvas = document.getElementById("canvasABS");
+                let context = canvas.getContext("2d");
+    
+                // circle #1 (red - outermost)
+                context.beginPath();
+                context.arc(228, 228, 216, 0.5 * Math.PI, 2.5 * Math.PI);
+                context.fillStyle = "#ec1c24";
+                context.fill();
+    
+                // circle #2 (white)
+                context.beginPath();
+                context.arc(228, 228, 177, 0.5 * Math.PI, 2.5 * Math.PI);
+                context.fillStyle = "white";
+                context.fill();
+    
+                // circle #3 (green)
+                context.beginPath();
+                context.arc(228, 228, 152, 0.5 * Math.PI, 2.5 * Math.PI);
+                context.fillStyle = "#0d6e3d";
+                context.fill();
+    
+                // circle #4 (white)
+                context.beginPath();
+                context.arc(228, 228, 114, 0.5 * Math.PI, 2.5 * Math.PI);
+                context.fillStyle = "white";
+                context.fill();
+    
+                // circle #5 (blue)
+                context.beginPath();
+                context.arc(228, 228, 89, 0.5 * Math.PI, 2.5 * Math.PI);
+                context.fillStyle = "#0464b4";
+                context.fill();
+    
+                // circle #6 (white)
+                context.beginPath();
+                context.arc(228, 228, 50, 0.5 * Math.PI, 2.5 * Math.PI);
+                context.fillStyle = "white";
+                context.fill();
+    
+                // center-line (white-border)
+                context.beginPath()
+                context.clearRect(201, 216, 56, 470);
+                context.fillStyle = "black";
+                context.fillRect(211, 226, 35, 235);
+    
+                // text (font)
+                context.font = "bold 100px Rotis Semi Serif";
+                context.fillText("ABS-CBN", 1, 550);
+            </script>    
+        </div>
+    </body>
+</html>
