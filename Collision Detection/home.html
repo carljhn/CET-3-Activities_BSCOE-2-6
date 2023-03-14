@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carl John R. Zoleta">
+        <meta name="description" content="Adding collision, audio and score in a game using HTML, CSS and JavaScript">
+        <title>Piranha Attack - Collision Detection Game</title>
+        <link type="image" rel="icon" href="image/logo.png">
+        <style>
+            body {
+                background: linear-gradient(115deg, rgba(88, 97, 231, 0.5), rgba(8, 3, 21, 0.5));
+                overflow: hidden;
+            }
+
+            .container {
+                border: 5px solid black;
+                background-image: url(bg/main-bg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            /* header */
+
+            .intro p {
+                font-family: 'Impact';
+                font-size: 50px;
+                font-weight: 200;
+                color: red;
+                display: flex;
+                justify-content: center;
+            }
+
+            .intro h3 {
+                font: 20px Impact;
+                color: black;
+                display: flex;
+                justify-content: center;
+            }
+
+            /* logo */
+
+            .img img {
+                display: block;
+                margin: auto;
+                width: 20%;
+                margin-bottom: auto;
+            }
+
+            /* button */
+
+            .start {
+                display: flex;
+                height: 60px;
+                justify-content: center;
+                align-items: center;
+                padding: 0 15px;
+            }
+
+            .start button {
+                display: block;
+                margin-top: auto;
+                height: 40px;
+                width: 100px;
+                border-radius: 5rem;
+                font-size: 16px;
+                font-weight: 500;
+                transition: all 0.3s ease;
+            }
+
+            button a {
+                text-decoration: none;
+                font-family: Impact;
+            }
+
+            button:hover {
+                background-color: black;
+            }
+
+            button a:hover {
+                color: white;
+            }
+
+            /* footer */
+
+            .footer p {
+                display: flex;
+                color: white;
+                font-size: small;
+                font-family: 'Arial';
+                justify-content: center;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="intro">
+                <p>Piranha Attack</p>
+                <h3>Don't let the piranhas get you!</h3>
+            </div>
+            <div class="img">
+                <img src="image/logo.png" alt="logo">
+            </div>
+            <div class="start">
+                <button><a href="index.html">Start</a></button>
+            </div>
+            <div class="footer">
+                <p>Created by Carl John Zoleta &copy 2023</p>
+            </div>
+        </div>
+    </body>
+</html>

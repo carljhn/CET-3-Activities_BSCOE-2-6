@@ -1,0 +1,21 @@
+body {
+    background: lightblue;
+    overflow: hidden;
+    background-image: url("bg/main-bg.jpg");
+    background-size: 100%;
+}
+
+#canvas1 {
+    border: 3px solid black;
+    border-radius: 2rem;
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    transform: translate(5%, 5%);
+}
+
+#collisionCanvas {
+    opacity: 0;
+}
