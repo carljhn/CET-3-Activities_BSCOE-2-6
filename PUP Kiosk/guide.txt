@@ -1,0 +1,91 @@
+PUP Kiosk
+
+- : Coords is based on the progammer
+- : Coords is 3 only
+- : Coords is 4
+
+Features:
+1 Amphitheater - 
+2 Banda Kawayan, Sining Lahi Headquarters -
+3 Building and Grounds Maintenance Office *** - 
+4 Catwalk - 
+5 Centennial Monument - 
+6 Charlie del Rosario Student Development Center - 
+7 East Gate *** - 
+8 Flag Pole - 
+9 Grandstand - poly
+10 Gymnasium - 
+11 Interfaith Chapel - 
+12 Laboratory High School - 
+13 Lagoon - 
+14 Main Building – Dome - 
+15 Main Building - East Wing - poly
+16 Main Building - North Wing - poly
+17 Main Building - South Wing - poly
+18 Main Building - West Wing - poly
+19 Main Gate - 
+20 Nemesio E. Prudente Freedom Park - 
+21 Ninoy Aquino Library and Learning Resources Center - 
+22 Open Court - 
+23 CNFS Building *** - 
+24 Oval Open Field - 
+25 P.E. Building - 
+26 Pasig River - 
+27 Pasig River Ferry (Sta. Mesa Station) - 
+28 Access Road - 
+29 Public Restroom *** - 
+30 PUP Linear Park - 
+31 PUP Mural and the Shrine of Heroism - 
+32 PUP Obelisk (and the Mabini Monument) - 
+33 PUP Property Building and Motorpool *** - 
+34 PUP Pylon - 
+35 Sampaguita Building - 
+36 Student Pavilion - 
+37 Swimming Pool - 
+38 Tennis Open Court - 
+39 Water Tank - 
+40 West Gate *** - 
+
+
+coordinates: 
+1. Amphitheater (245, 276, 250, 291, 264, 299, 280, 297, 289, 288, 291, 279, 247, 274) - 1-amphitheater.jpg
+2. Banda Kawayan, Sining Lahi Headquarters (176, 41, 201, 61) - 2-banda-kawayan.jpg
+3 Building and Grounds Maintenance Office (211, 482, 267, 498) - 3-walang-pic.jpg
+4 Catwalk (397, 147, 402, 142, 444, 211, 627, 217, 629, 224, 449, 221, 436, 216, 397, 147) - 4-catwalk.jpg
+5 Centennial Monument (349, 227, 12) - 5-centennial-monum.jpg
+6 Charlie del Rosario Student Development Center (98, 176, 179, 225, 166, 247, 84, 201) - 6-charlie-dr-building.jpg
+7 East Gate (617, 485, 636, 453) - 7-walang-pic.jpg
+8 Flag Pole (370, 307, 12) - 8-flag-pole.jpg
+9 Grandstand (477, 292, 490, 302, 449, 362, 437, 352, 477, 293) - 9-grandstand.jpg
+10 Gymnasium (465, 56, 579, 115) - 10-gymnasium.jpg
+11 Interfaith Chapel (346, 414, 52) - 11-Interfaith-chapel.jpg
+12 Laboratory High School (100, 58, 165, 96, 189, 196, 184, 205, 81, 145, 72, 111, 100, 60) - 12-lab-high-school.jpg
+13 Lagoon (287, 168, 288, 198, 288, 208, 269, 245, 241, 266, 287, 266, 319, 259, 326, 250, 327, 236, 310, 205, 306, 159, 289, 162) - 13-lagoon.jpg
+14 Main Building – Dome (258, 359, 27) - 14-dome.jpg
+15 Main Building - East Wing (238, 386, 277, 387, 266, 470, 267, 477, 254, 477, 253, 472, 245, 472, 236, 469, 237, 387) - 15-east-wing.jpg
+16 Main Building - North Wing (270, 329, 340, 290, 344, 294, 351, 291, 259, 306, 357, 310, 360, 316, 357, 318, 360, 326, 289, 364, 270, 329) - 16-north-wing.jpg
+17 Main Building - South Wing (142, 361, 178, 341, 185, 353, 188, 351, 227, 425, 224, 428, 231, 441, 197, 462, 189, 449, 184, 450, 143, 375, 148, 372, 143, 361) - 17-south-wing.png
+18 Main Building - West Wing (153, 309, 161, 296, 163, 298, 167, 291, 172, 292, 177, 285, 246, 328, 224, 363, 156, 320, 158, 314, 152, 309) - 18-west-wing.jpg
+19 Main Gate (623, 224, 648, 240) - 19-main-gate.jpg
+20 Nemesio E. Prudente Freedom Park (384, 283, 18) - 20-freedom-park.jpg
+21 Ninoy Aquino Library and Learning Resources Center (210, 59, 238, 51, 254, 109, 306, 95, 314, 121, 262, 139, 276, 197, 248, 205, 231, 142, 215, 146, 202, 165, 189, 116, 211, 125, 226, 121, 210, 59) - 21-ninoy-aquino-lrc.jpg
+22 Open Court (429, 143, 470, 180) - 22-open-court.jpg
+23 CNFS Building *** (273, 482, 394, 497) - 23-walang-pic.jpg
+24 Oval Open Field (510, 300, 525, 288, 543, 282, 567, 283, 590, 294, 607, 314, 612, 340, 607, 362, 549, 446, 522, 462, 498, 463, 480, 458, 462, 442, 451, 419, 450, 396, 456, 378, 510, 300) - 24-oval.jpg
+25 P.E. Building (325, 47, 353, 146) - 25-pe-building.jpg
+26 Pasig River (1, 34, 29, 77, 40, 138, 61, 194, 74, 243, 78, 317, 113, 390, 116, 422, 130, 520, 0, 521, 1, 37) - 26-pasig-river.jpg
+27 Pasig River Ferry (Sta. Mesa Station) (143, 458, 161, 460, 157, 509, 140, 507, 144, 458) - 27-river-ferry.jpg
+28 Access Road (375, 350, 520, 241, 528, 252, 389, 360, 374, 350) - 28-access-road.jpg
+29 Public Restroom *** (141, 242, 154, 249, 147, 263, 136, 255, 142, 242) - 29-walang-pic.jpg
+30 PUP Linear Park (80, 229, 84, 229, 147, 445, 142, 445, 80, 230) - 30-linear-park.jpg
+31 PUP Mural and the Shrine of Heroism (624, 238, 636, 242, 646, 252, 651, 268, 645, 269, 643, 258, 636, 251, 631, 246, 624, 245, 623, 239) - 31-mural.jpg 
+32 PUP Obelisk (and the Mabini Monument) (399, 230, 18) - 32-obelisk.jpg
+33 PUP Property Building and Motorpool *** (47, 41, 87, 40, 87, 48, 78, 48, 78, 55, 67, 56, 68, 83, 56, 83, 54, 49, 47, 49, 47, 41) - 33-walang-pic.jpg
+34 PUP Pylon (618, 197, 643, 217) - 34-pylon.jpg
+35 Sampaguita Building (116, 254, 149, 274, 130, 306, 106, 292, 118, 274, 107, 268, 117, 253) - 35-sampaguita.jpg
+36 Student Pavilion (481, 241, 519, 241, 481, 268) - 36-student-pavilion.jpg
+37 Swimming Pool (374, 49, 449, 103) - 37-swimming-pool.jpg
+38 Tennis Open Court (500, 144, 553, 181) - 38-tennis-court.jpg
+39 Water Tank (200, 89, 12) - 39-water-tank.jpg
+40 West Gate *** (631, 147, 655, 175) - 40-walang-pic.jpg
+

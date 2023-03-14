@@ -1,0 +1,79 @@
+body {
+    background-color: maroon;
+    font-family: 'poppins';
+    background-image: linear-gradient(100deg, rgba(50, 7, 7, 0.1), rgba(62, 45, 6, 0.5));
+    overflow: hidden;
+}
+
+/* header div */
+
+.header h1 {
+    font-weight: 700;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.header h2 {
+    display: flex;
+    justify-content: center;
+    border: 3px;
+    color: white;
+}
+
+/* logo div */
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 20%;
+    margin-bottom: auto;
+}
+
+/* intro div */
+
+.intro {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.intro button {
+    display: block;
+    margin-top: auto;
+    height: 40px;
+    width: 100px;
+    border-radius: 5rem;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.intro a {
+    text-decoration: none;
+    font-family: 'poppins';
+    font-weight: 700;
+    color: maroon;
+}
+
+.intro button:hover {
+    background-color: maroon;
+    border-color: white;
+}
+
+.intro a:hover {
+    color: white
+}
+
+/* footer div */
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    font-weight: 500;
+    color: white;
+}
