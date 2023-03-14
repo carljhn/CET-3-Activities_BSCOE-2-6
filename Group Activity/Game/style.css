@@ -1,0 +1,157 @@
+* {
+    background: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1, #buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Bangers', cursive;
+}
+
+
+#player, #layer1, #layer2, #layer3, #layer4, #layer5, #coin, #explosion, #enemy, #hydrant, #bonus-explosion, #hydrant-explosion, #car, #cars, #bonus, #bird-explosion {
+    display: none;
+}
+
+#home a {
+    left: 830%; 
+    top: 3%;  
+    text-decoration: none; 
+    position: relative;
+    width: 25%;
+    height: 25px;
+    margin: 10px;
+    display: block;
+    border-radius: 50px;
+    border: 5px solid black;
+    background: black;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    line-height: 17px;
+    min-width: 90px;
+    font-family: 'Bangers', cursive;
+}
+
+#home a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+#home a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+#home::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+#home a:hover {
+    background: blue;
+    box-shadow:  10px 10px 15px blue,  -10px -10px 15px blue,  -10px 10px 15px blue,  10px -10px 15px blue;
+}
+
+#restart a {
+    left: 830%; 
+    top: 3%;  
+    text-decoration: none; 
+    position: relative;
+    width: 25%;
+    height: 25px;
+    margin: 10px;
+    display: block;
+    border-radius: 50px;
+    border: 5px solid black;
+    background: black;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    line-height: 17px;
+    min-width: 90px;  
+    font-family: 'Bangers', cursive;
+}
+
+#restart a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+#restart a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+#restart::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+#restart a:hover {
+    background: blue;
+    box-shadow:  10px 10px 15px blue,  -10px -10px 15px blue,  -10px 10px 15px blue,  10px -10px 15px blue;
+}
+
+
+#trivia a {
+    left: 830%; 
+    top: 3%;  
+    text-decoration: none; 
+    position: relative;
+    width: 25%;
+    height: 25px;
+    margin: 10px;
+    display: block;
+    border-radius: 50px;
+    border: 5px solid black;
+    background: black;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    line-height: 17px;
+    min-width: 90px; 
+    font-family: 'Bangers', cursive; 
+}
+
+#trivia a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+#trivia a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+#trivia::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+#trivia a:hover {
+    background: blue;
+    box-shadow:  10px 10px 15px blue,  -10px -10px 15px blue,  -10px 10px 15px blue,  10px -10px 15px blue;
+}

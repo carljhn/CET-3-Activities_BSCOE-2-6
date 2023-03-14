@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey to L.A. City</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@200;300&family=Roboto+Slab&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/Logo.png">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <img id="player" src="assets/player.png">
+    <img id="layer1" src="BACKGROUND 2/1.png">
+    <img id="layer2" src="BACKGROUND 2/2.png">
+    <img id="layer3" src="BACKGROUND 2/3.png">
+    <img id="layer4" src="BACKGROUND 2/4.png">
+    <img id="layer5" src="BACKGROUND 2/5.png">
+    <img id="coin" src="assets/shoe.png">
+    <img id="bonus" src="assets/bonus.png">
+    <img id="hydrant" src="assets/hydrant.png">
+    <img id="explosion" src="assets/explosion sprite.png">
+    <img id="bonus-explosion" src="assets/bonus-explosion.png">
+    <img id="hydrant-explosion" src="assets/hydrant-explosion.png">
+    <audio controls autoplay loop id="bgm" src="audio/BGM-Medium.mp3" hidden="hidden"></audio>
+
+    <div class="buttons">
+        <button id="home"><a href="home.html">Home</a></button>
+        <button id="restart"><a href="medium.html">Restart</a></button>
+        <button id="trivia"><a href="Trivia.html">Trivia</a></button>
+    </div>
+
+    <script type="module" src="js/medium.js"></script>
+
+    
+</body>
+</html>
+
+<!-- running - 90 x 139 -->
+<!-- jumping - 90 x 137 -->
+<!-- enemy - 80 x 60 -->
+<!-- hydrant - 72 x 212 -->
+<!-- explosion (bonus) - 123 x 120 -->
+<!-- explosion (hydrant) - 62 x 68 -->
+<!-- token - 40 x 43 -->
