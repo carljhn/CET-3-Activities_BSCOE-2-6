@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carl John R. Zoleta">
+        <meta name="description" content="creating my simple website layout using external css">
+        <title>Zoleta's Craft Shop</title>
+        <link type="text/css" rel="stylesheet" href="style.css"/>
+        <link type="image" rel="icon" href="images/mylogo.png">
+    </head>
+    <body>
+        <!--Start: Header-->
+        <header>
+            <a href="#" class="logo">Arts and Crafts</a>
+            <div class="bx bx-menu" id="menu"></div>
+            <ul class="nav-bar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <!--End: Header-->
+
+        <!--Start: Home-->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>Handicraft Shopping Website</h1>
+                <h2>Patronizing Filipino<br>Arts and Crafts</h2>
+                <a href="#products" class="button">See Products</a>
+            </div>
+            <div class="home-img">
+                <img src="images/zoleta-logo.png">
+            </div>
+        </section>
+        <!--End: Home-->
+
+        <!--Start: About-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/about.png">
+            </div>
+            <div class="about-text">
+                <span>About Us</span>
+                <h2>Quality products <br>are here!</h2>
+                <p>Zoleta's Craft Shop is a home for Filipino Craft. Here, you will
+                    be able to find a lot of pieces created by our filipino artists
+                    with different expertise like knitting, crocheting, carving, painting
+                    and more. So if you are looking for a perfect gift or souvenir
+                    with quality materials, that is proudly made in the Philippines, 
+                    we suggest you to check this shop.
+                </p>
+                <a href="#products" class="button">See Products</a>
+            </div>
+        </section>
+        <!--End: About-->
+
+        <!--Start: Product-->
+        <section class="product" id="products">
+            <div class="heading">
+                <span>Item Menu</span>
+                <h2>Best Finds and Great Price</h2>
+            </div>
+            <div class="menu-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/rattan.jpg">
+                    </div>
+                    <h2>Woven Pouches</h2>
+                    <h3>100% Rattan</h3>
+                    <span>PhP 170.00</span>
+                    <div class="cart">
+                        <img src="images/cart-logo.png">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/flower-vase.jpg">
+                    </div>
+                    <h2>Wooden Flower Vase</h2>
+                    <h3>Decorative hand-made vase</h3>
+                    <span>PhP 200.00</span>
+                    <div class="cart">
+                        <img src="images/cart-logo.png">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/table.jpg">
+                    </div>
+                    <h2>Center Table</h2>
+                    <h3> 56cm Rattan-made Center Table</h3>
+                    <span>PhP 399.50</span>
+                    <div class="cart">
+                        <img src="images/cart-logo.png">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/tubok.jpg">
+                    </div>
+                    <h2>Tubok</h2>
+                    <h3>Iloilo's Indigenous Needlecraft</h3>
+                    <span>PhP 250.00</span>
+                    <div class="cart">
+                        <img src="images/cart-logo.png">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/tnalak.jpg">
+                    </div>
+                    <h2>T'nalak Cloth</h2>
+                    <h3>High Quality Cloth</h3>
+                    <span>PhP 500.00</span>
+                    <div class="cart">
+                        <img src="images/cart-logo.png">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="images/ceramics.jpg">
+                    </div>
+                    <h2>Ceramic Jar</h2>
+                    <h3>Handmade Clay Jars</h3>
+                    <span>PhP 295.00</span>
+                    <div class="cart">
+                        <img src="images/cart-logo.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End: Product-->
+
+        <!--Start: Video-->
+        <section class="video" id="video">
+            <h1>Philippine Handicrafts</h1>
+            <center>
+                <video controls>
+                    <source src="images/PHILIPPINE HANDICRAFTS.mp4" type="video/mp4">
+                </video>
+            </center>
+            <h5>Courtesy of Charlie Espor, Youtube</h5>
+        </section>
+        <!--End: Video-->
+
+        <!--Start: Contacts-->
+        <section class="contact "id="contact">
+                <h1><span>Contact</span> Us</h1>
+                <div class="row">
+                    <form action="">
+                        <input type="text" placeholder="Name" class="box">
+                        <input type="email" placeholder="Email" class="box">
+                        <input type="number" placeholder="Number" class="box">
+                        <textarea name="" class="box" id="" placeholder="Message" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Send Message" class="button">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--End: Contact-->
+
+        <!--Start: Footer-->
+        <section class="Footer">
+            <div class="footer">
+                <div class="main-footer">
+                    <div class="col">
+                        <h4>Menu Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="">Web Design</a></li>
+                            <li><a href="">Web Development</a></li>
+                            <li><a href="">Marketing</a></li>
+                            <li><a href="">Product Management</a></li>
+                            <li><a href="">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Social Media</h4>
+                        <div class="socials">
+                            <a href="https://www.facebook.com/profile.php?id=100009102291674"><img src="images/facebook.png"></a>
+                            <a href="twitter.com"><img src="images/twitter.png"></a>
+                            <a href="instagram.com"><img src="images/insta.png"></a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p>Muzon Road <br> San Jose Del Monte, Bulacan <br> 0912-345-6789</p>
+                <p>&copy; 2022 Carl John R. Zoleta</p>
+            </div>
+        </section>
+        <!--End: Footer-->
+    </body>
+</html>
